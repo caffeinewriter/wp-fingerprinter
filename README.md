@@ -5,7 +5,7 @@ This python application quickly fingerprints WordPress installations, and attemp
 
 ##Usage:
 
-`python wp-fingerprinter.py -t target.com -t blog.target.com -t target.com/blog -t https://target.com/blog -t http://blog.target.com`
+`python wp-fingerprint.py -t target.com -t blog.target.com -t target.com/blog -t https://target.com/blog -t http://blog.target.com`
 
 ## Arguments
 

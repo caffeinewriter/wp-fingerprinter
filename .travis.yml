@@ -1,10 +1,3 @@
-deploy:
-  provider: releases
-  api_key:
-    secure: JdD6dU1f0nOyjM4KglJ6w1N+X/2gtTrotoroQRk+a+PZ01XS9EPdkfRu0/KYnAr1B7Bn41nLxHvZa++eW5A6ksmwBwLw/q6PmM08RDgfnGfCT4kx+hsfJCZWR8EbusiddCO5Z9XJLeyXCMd6szZ1vDutWzzab0N3OJq9SActgM8=
-  file: "./dist/wp-fingerprinter"
-  on:
-    repo: caffeinewriter/wp-fingerprinter
 language: python
 python: "2.7"
 install: "sudo -H pip install -r requirements.txt"
