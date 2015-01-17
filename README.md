@@ -12,3 +12,12 @@ This python application quickly fingerprints WordPress installations, and attemp
 So far, this only supports a single switch.
 
 `-t, --target` - WordPress installation to attempt and fingerprint. Can be used multiple times in a single execution to iterate through the sites.
+
+## Building
+
+This has been successfully built with `pyinstaller`.
+
+```
+pip install pyinstaller
+pyinstaller -F wp-fingerprintpy
+````
