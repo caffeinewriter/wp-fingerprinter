@@ -9,6 +9,6 @@ This python application quickly fingerprints WordPress installations, and attemp
 
 ## Arguments
 
-So far, this only supports a single argument.
+So far, this only supports a single switch.
 
 `-t, --target` - WordPress installation to attempt and fingerprint. Can be used multiple times in a single execution to iterate through the sites.
