@@ -7,5 +7,5 @@ deploy:
     repo: caffeinewriter/wp-fingerprinter
 language: python
 python: "2.7"
-install: "pip install -r requirements.txt"
+install: "sudo -H pip install -r requirements.txt"
 script: ./build.sh
