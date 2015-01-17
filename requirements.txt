@@ -1,2 +1,2 @@
-requests; python_version <= '2.7'
-pyinstaller; python_version <= '2.7'
+requests
+pyinstaller
