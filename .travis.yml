@@ -8,4 +8,6 @@ deploy:
 language: python
 python: "2.7"
 install: "sudo -H pip install -r requirements.txt"
-script: ./build.sh
+script: 
+  - "sudo chmod +x ./build.sh"
+  - "sudo ./build.sh"
