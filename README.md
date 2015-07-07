@@ -36,4 +36,4 @@ This has been successfully built with `pyinstaller`.
 #First line not necessary if you ran the dependency install command
 pip install pyinstaller
 pyinstaller -F wp-fingerprintpy
-````
+```
