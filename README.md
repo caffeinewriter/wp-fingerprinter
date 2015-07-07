@@ -10,7 +10,9 @@ This python application quickly fingerprints WordPress installations, and attemp
 ## Arguments
 
 `-t, --target` - WordPress installation to attempt and fingerprint. Can be used multiple times in a single execution to iterate through the sites.
+
 `-u, --user-agent` - Sets a custom user agent to be used in the requests.
+
 `-v, --verbose` - Will spit out error details. More to come on this in the future.
 
 ## Building
