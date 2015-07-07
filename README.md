@@ -15,9 +15,22 @@ So far, this only supports a single switch.
 
 ## Building
 
+Make sure to install dependencies. 
+
+```
+pip install -r requirements.txt
+```
+
+Or you can install dependencies manually.
+
+```
+pip install requests pyinstaller
+```
+
 This has been successfully built with `pyinstaller`.
 
 ```
+#First line not necessary if you ran the dependency install command
 pip install pyinstaller
 pyinstaller -F wp-fingerprintpy
 ````
